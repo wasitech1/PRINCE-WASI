@@ -741,9 +741,7 @@ export async function deleteUpdate(message) {
        
             await this.reply(msg.chat, `
             ✅ Deleted a message 
-            ┌─⊷🪩𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀🪩
-            │✫ -  *Number :* @${participant.split`@`[0]} 
-            └─────────────
+            *Number :* @${participant.split`@`[0]} 
              To deactivate delete the Antidelete var✅
             `.trim(), msg, {
                         mentions: [participant]
@@ -812,16 +810,16 @@ export async function presenceUpdate(presenceUpdate) {
 dfail
  */
 global.dfail = (type, m, conn) => {
-    const userTag = `👋 Hai *@${m.sender.split("@")[0]}*, `
+    const userTag = `ʜᴇʏ  *@${m.sender.split("@")[0]}*, 👋🏻 `
     const emoji = {
         general: '⚙️',
-        owner: '👑',
+        owner: '🛡️',
         moderator: '🛡️',
         premium: '💎',
-        group: '👥',
+        group: '💌',
         private: '📱',
-        admin: '👤',
-        botAdmin: '🤖',
+        admin: '🪩',
+        botAdmin: '❎',
         unreg: '🔒',
         nsfw: '🔞',
         rpg: '🎮',
@@ -829,20 +827,20 @@ global.dfail = (type, m, conn) => {
     }
 
     const msg = {
-        owner: `*${emoji.owner} Owner's Query*\n
-    ${userTag} This command can only be used by the *Bot Owner*!`,
+        owner: `*${emoji.owner}  ɪᴛs ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ*\n
+    ${userTag} ᴏɴʟʏ BOT OWNER ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!`,
         moderator: `*${emoji.moderator} Moderator's Query*\n
     ${userTag} This command can only be used by *Moderators*!`,
         premium: `*${emoji.premium} Premium Query*\n
     ${userTag} This command is only for *Premium Members*!`,
-        group: `*${emoji.group} Group Query*\n
-    ${userTag} This command can only be used in *Group Chats*!`,
-        private: `*${emoji.private} Private Query*\n
-    ${userTag} This command can only be used in *Private Chats*!`,
-        admin: `*${emoji.admin} Admin's Query*\n
-    ${userTag} This command is only for *Group Admins*!`,
-        botAdmin: `*${emoji.botAdmin} Bot Admin's Query*\n
-    ${userTag} Make the bot an *Admin* to use this command!`,
+        group: `*${emoji.group} ɪᴛs ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅ*\n
+    ${userTag} ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ GROUPS!`,
+        private: `*${emoji.private} ɪᴛs ᴀ ᴘʀɪᴠᴀᴛᴇ ᴄᴏᴍᴍᴀɴᴅ*\n
+    ${userTag} ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ PRIVATE ᴄʜᴀᴛs*!`,
+        admin: `*${emoji.admin} ɪᴛs ADMINS ᴄᴏᴍᴍᴀɴᴅ*\n
+    ${userTag} ᴏɴʟʏ GROUP ADMINS ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ*!`,
+        botAdmin: `*${emoji.botAdmin} Aᴅᴍɪɴɪsᴛʀᴀᴛɪᴏɴ ʀᴇϙᴜɪʀᴇᴅ*\n
+    ${userTag} ᴍᴀᴋᴇ ᴛʜᴇ BOT ᴀɴ ADMIN ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!`,
         unreg: `*${emoji.unreg} Registration Query*\n
     ${userTag} Please register to use this feature by typing:\n\n*#register name.age*\n\nExample: *#register ${m.name}.18*!`,
         nsfw: `*${emoji.nsfw} NSFW Query*\n
