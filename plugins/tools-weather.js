@@ -12,11 +12,11 @@ const Minimum_Temperature = res.data.main.temp_min + "°C"
 const Maximum_Temperature = res.data.main.temp_max + "°C"
 const Humidity = res.data.main.humidity + "%"
 const Wind = res.data.wind.speed + "km/h"
-const wea = `「 📍 」PLACE: ${name}\n「 🗺️ 」COUNTRY: ${Country}\n「 🌤️ 」VIEW: ${Weather}\n「 🌡️ 」TEMPERATURE: ${Temperature}\n「 💠 」 MINIMUM TEMPERATURE: ${Minimum_Temperature}\n「 📛 」 MAXIMUM TEMPERATURE: ${Maximum_Temperature}\n「 💦 」HUMIDITY: ${Humidity}\n「 🌬️ 」 WINDSPEED: ${Wind}`
+const wea = `ʜᴇʀᴇ ɪs ʏᴏᴜʀ ɢɪᴠᴇɴ ᴘʟᴀᴄᴇ ᴡᴇᴀᴛʜᴇʀ\n\n「 📍 」ᴘʟᴀᴄᴇ: ${name}\n「 🗺️ 」ᴄᴏᴜɴᴛʀʏ: ${Country}\n「 🌤️ 」ᴠɪᴇᴡ: ${Weather}\n「 🌡️ 」 ᴛᴇᴍᴘᴇʀᴀᴛᴜʀᴇ: ${Temperature}\n「 💠 」 ᴍɪɴɪᴍᴜᴍ ᴛᴇᴍᴘᴇʀᴀᴛᴜʀᴇ: ${Minimum_Temperature}\n「 📛 」 ᴍᴀxɪᴍᴜᴍ ᴛᴇᴍᴘᴇʀᴀᴛᴜʀᴇ: ${Maximum_Temperature}\n「 💦 」 ʜᴜᴍɪᴅɪᴛʏ: ${Humidity}\n「 🌬️ 」  ᴡɪɴᴅsᴘᴇᴇᴅ: ${Wind}\n\n🛡️ᴛʜᴇ-ᴘʀɪɴᴄᴇ-ʙᴏᴛ🛡️`
 m.reply(wea)
 } catch {
 return "*ERROR*"}}
 handler.help = ['weather *<place>*']
 handler.tags = ['tools']
-handler.command = /^(climate|weather)$/i
+handler.command = /^(climate|weather|mosam)$/i
 export default handler
