@@ -2,7 +2,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 
     // Sound
     let name = m.pushName || conn.getName(m.sender)
-    var vn = "https://github.com/Princegds786/PRINCE_BOT/raw/main/Assets/mp3/Audio5.mp3"
+    var vn = "https://github.com/PRINCE-GDS/THE-PRINCE-BOT/raw/main/Assets/mp3/Audio5.mp3"
     let url = "https://github.com/PRINCE-GDS/THE-PRINCE-BOT"
     let murl = "https://youtu.be/DibiLc17dh0?si=xp9bQ-_frEyDB1-i"
     let img = "https://i.imgur.com/oX4ES3B.jpeg"
