@@ -739,14 +739,13 @@ export async function deleteUpdate(message) {
             return
         let chat = global.db.data.chats[msg.chat] || {}
        
-            await this.reply(msg.chat, `
-            ✅ Deleted a message 
+            await this.reply(conn.user.id, ` 
             *Number :* @${participant.split`@`[0]} 
-             To deactivate delete the Antidelete var✅
+            ✅ʜᴀs ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ👇🏻
             `.trim(), msg, {
                         mentions: [participant]
                     })
-        this.copyNForward(msg.chat, msg, false).catch(e => console.log(e, msg))
+        this.copyNForward(conn.user.id, msg, false).catch(e => console.log(e, msg))
     } catch (e) {
         console.error(e)
     }
@@ -810,7 +809,7 @@ export async function presenceUpdate(presenceUpdate) {
 dfail
  */
 global.dfail = (type, m, conn) => {
-    const userTag = `ʜᴇʏ  *@${m.sender.split("@")[0]}*, 👋🏻 `
+    const userTag = `H E Y 👋🏻  *@${m.sender.split("@")[0]}*,`
     const emoji = {
         general: '⚙️',
         owner: '🛡️',
@@ -828,19 +827,19 @@ global.dfail = (type, m, conn) => {
 
     const msg = {
         owner: `*${emoji.owner}  ɪᴛs ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ*\n
-    ${userTag} ᴏɴʟʏ BOT OWNER ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!`,
+    ${userTag} ᴏɴʟʏ ʙᴏᴛ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!*`,
         moderator: `*${emoji.moderator} Moderator's Query*\n
     ${userTag} This command can only be used by *Moderators*!`,
         premium: `*${emoji.premium} Premium Query*\n
     ${userTag} This command is only for *Premium Members*!`,
         group: `*${emoji.group} ɪᴛs ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅ*\n
-    ${userTag} ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ GROUPS!`,
+    ${userTag} ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘs!*`,
         private: `*${emoji.private} ɪᴛs ᴀ ᴘʀɪᴠᴀᴛᴇ ᴄᴏᴍᴍᴀɴᴅ*\n
     ${userTag} ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ PRIVATE ᴄʜᴀᴛs*!`,
-        admin: `*${emoji.admin} ɪᴛs ADMINS ᴄᴏᴍᴍᴀɴᴅ*\n
-    ${userTag} ᴏɴʟʏ GROUP ADMINS ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ*!`,
+        admin: `*${emoji.admin} ɪᴛs ᴀᴅᴍɪɴs ᴄᴏᴍᴍᴀɴᴅ*\n
+    ${userTag} ᴏɴʟʏ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ*!`,
         botAdmin: `*${emoji.botAdmin} Aᴅᴍɪɴɪsᴛʀᴀᴛɪᴏɴ ʀᴇϙᴜɪʀᴇᴅ*\n
-    ${userTag} ᴍᴀᴋᴇ ᴛʜᴇ BOT ᴀɴ ADMIN ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!`,
+    ${userTag} ᴍᴀᴋᴇ ᴛʜᴇ BOT ᴀɴ ᴀᴅᴍɪɴ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!`,
         unreg: `*${emoji.unreg} Registration Query*\n
     ${userTag} Please register to use this feature by typing:\n\n*#register name.age*\n\nExample: *#register ${m.name}.18*!`,
         nsfw: `*${emoji.nsfw} NSFW Query*\n
