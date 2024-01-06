@@ -5,10 +5,8 @@ import fs from 'fs'
 import fetch from 'node-fetch'
 import axios from 'axios'
 
-
-
 global.owner = [
-  ['923092668108', 'PRINCEGDS', false], 
+  ['+923092668108', 'PRINCEGDS', false], 
   [''],
 ]  //Owner numbers
 
