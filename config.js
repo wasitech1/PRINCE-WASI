@@ -2,13 +2,16 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import fs from 'fs'
+import fetch from 'node-fetch'
+import axios from 'axios'
 
-//Owner Numbers 
+
+
 global.owner = [
   ['923092668108', 'Prince', false],
   [''], 
   [''],
-]
+]  //Owner numbers
 
 //global.pairingNumber = "" //put your bot number here
 global.mods = ['923042205427'] 
