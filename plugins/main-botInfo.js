@@ -61,7 +61,7 @@ let infobt = `
   wa.me/923042205427
   
 ▢ MY BOT GC LINK.
-  https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS
+  https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -76,6 +76,6 @@ m.react(done)
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['info', 'infobot', 'botinfo', 'bot']
+handler.command = ['info', 'infobot', 'botinfo']
 
 export default handler
