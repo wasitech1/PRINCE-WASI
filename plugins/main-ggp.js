@@ -6,7 +6,9 @@ let handler = async m => m.reply(`
 ─────────────
 ▢ ★☆☆🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️☆☆★
 
-🅛🅘🅝🅚: https://chat.whatsapp.com/GToikDYlwBsJ43nFXYFlay
+🅛🅘🅝🅚: https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP
+
+🅛🅘🅝🅚: https://whatsapp.com/channel/0029VaGR6Ab7IUYPsbvSEa33
 
 ★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
 ★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆
