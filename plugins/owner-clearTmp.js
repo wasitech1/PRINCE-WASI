@@ -18,7 +18,7 @@ const tmp = [tmpdir(), join(__dirname, '../tmp')]
   //session bot
   readdirSync("./sessions").forEach(file => {
     if (file !== 'creds.json') {
-        unlinkSync("./session/" + file, { recursive: true, force: true })}}) 
+        unlinkSync("./sessions/" + file, { recursive: true, force: true })}}) 
       
   return filename.map(file => {
     unlinkSync(file)
