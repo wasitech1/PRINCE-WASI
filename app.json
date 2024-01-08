@@ -26,6 +26,11 @@
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
       "value": ""
+       },
+    "PREFIX": {
+      "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
+      "required": false,
+      "value": ""
      },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
