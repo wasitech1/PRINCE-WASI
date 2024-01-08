@@ -5,11 +5,7 @@ import fs from 'fs'
 import fetch from 'node-fetch'
 import axios from 'axios'
 
-global.owner = [
-  ['923042205427', 'Prince', false],
-  [''], 
-  ['923092668108', 'King', false], 
-] //Number of owners
+global.owner = [ ['923092668108', 'King', false] ]; //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 global.mods = ['923042205427'] 
