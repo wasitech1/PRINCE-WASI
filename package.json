@@ -108,6 +108,8 @@
         "yargs": "^17.6.0",
         "ytdl-core": "^4.10.0",
         "youtubedl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2",
+        "youtubedl-core": "npm:ytdl-core@4.10.0"
+        "youtubedl-core": "npm:@distube/ytdl-core"
         "wa-sticker-formatter": "^4.3.2",
         "@xct007/frieren-scraper": "*",
         "@xct007/tiktok-scraper": "*"  
