@@ -1,25 +1,25 @@
  <p align="center">  
   <a href="">
-    <img alt="PRINCE" width="600" height="350" src="https://i.imgur.com/iI086tX.jpeg">
+    <img alt="Wasi" width="600" height="350" src="https://telegra.ph/file/3ff7f42fcddc8f71ad730.jpg">
   </a>
 </p>
 
 
 
 <p align="center">
-<a href="https://github.com/PRINCE-GDS/THE-PRINCE-BOT"><img title="Author" src="https://img.shields.io/badge/THE PRINCE BOT-black?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/wasitech1/PRINCE-WASI"><img title="Author" src="https://img.shields.io/badge/WASI-black?style=for-the-badge&logo=github"></a>
 <p/>
 
 <p align="center">
-<a href="https://github.com/PRINCE-GDS?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/PRINCE-GDS?label=Followers&style=social"></a>
-<a href="https://github.com/PRINCE-GDS/THE-PRINCE-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/PRINCE-GDS/THE-PRINCE-BOT?&style=social"></a>
-<a href="https://github.com/PRINCE-GDS/THE-PRINCE-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/PRINCE-GDS/THE-PRINCE-BOT?style=social"></a>
-<a href="https://github.com/PRINCE-GDS/THE-PRINCE-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/PRINCE-GDS/THE-PRINCE-BOT?label=Watching&style=social"></a>
+<a href="https://github.com/Itxxwasi?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Itxxwasi?label=Followers&style=social"></a>
+<a href="https://github.com/wasitech1/PRINCE-WASI/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/wasitech1/PRINCE-WASI?&style=social"></a>
+<a href="https://github.com/wasitech1/PRINCE-WASI/network/members"><img title="Fork" src="https://img.shields.io/github/forks/wasitech1/PRINCE-WASI?style=social"></a>
+<a href="https://github.com/wasitech1/PRINCE-WASI/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/wasitech1/PRINCE-WASI?label=Watching&style=social"></a>
 </p>
  
-<h1 align="center">🛡️ᑭᖇIᑎᑕᕮ ᗷOT ᗰᗪ🛡️</h1>
+<h1 align="center">WASI MD</h1>
 
-#### 🪩 To Change the owner number click here [CHANGE ONWER](https://github.com/PRINCE-GDS/THE-PRINCE-BOT/blob/main/plugins/main-creator.js#L7)🪩
+#### 🪩 To Change the owner number click here [CHANGE ONWER](https://github.com/wasitech1/PRINCE-WASI/CONFIG.JS#L7)🪩
 
 <h2 align="left">ＳＥＳＳＩＯＮ ＩＤ (ＰＡＩＲ ＣＯＤＥ)</h2>
 <p align="left">
