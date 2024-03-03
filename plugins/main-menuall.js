@@ -468,7 +468,7 @@ break;
           break;
           case 'toolmenu':
           lkr = `┏━━━ʕ•𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐•ʔ━━━┓
-⎪⌲🔖🇵🇰 _${usedPrefix}autosticker_
+⎪⌲ _${usedPrefix}autosticker_
 ⎪⌲🔖🇵🇰 _${usedPrefix}pdf_
 ⎪⌲🔖🇵🇰 _${usedPrefix}whatmusic_
 ⎪⌲🔖🇵🇰 _${usedPrefix}calc_
@@ -511,7 +511,7 @@ break;
       m.react(done);
     };
     
-    handler.help = ['list', 'botmenu', 'ownermenu', 'groupmenu', 'dlmenu', 'downloadermenu', 'economymenu', 'funmenu', 'gamemenu', 'stickermenu', 'nsfwmenu', 'logomenu', 'toolmenu'];
+    handler.help = ['list', 'botmenu', 'ownermenu', 'groupmenu', 'wasimenu', 'downloadermenu', 'economymenu', 'funmenu', 'gamemenu', 'stickermenu', 'nsfwmenu', 'logomenu', 'toolmenu'];
     handler.tags = ['main'];
     handler.command = ['list', 'botmenu', 'ownermenu', 'groupmenu', 'dlmenu', 'downloadermenu', 'economymenu', 'funmenu', 'gamemenu', 'stickermenu', 'nsfwmenu', 'logomenu', 'toolmenu'];
     
