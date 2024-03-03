@@ -21,7 +21,7 @@ import {
  
   ╭━━⊱『 *I N F O*』⊱━━╮
   ⛥ *Mode:* %mode
-  ⛥ *Platform:* %platform
+  ⛥ *Platform:* 𝖶𝖠𝖲𝖨-𝖲𝖤𝖱𝖵𝖤𝖱
   ⛥ *Type:* NodeJs
   ⛥ *Baileys:* Multi Device
   ⛥ *Prefix:* [ *%_p* ]
@@ -225,13 +225,13 @@ import {
   const time = moment.tz("Asia/Kolkata").format("HH")
   let res = "Good morning ☀️"
   if (time >= 4) {
-   res = "Good Morning 🤗🌄"
+   res = "𝖦𝖮𝖮𝖣 𝖬𝖮𝖱𝖭𝖨𝖭𝖦 𝖥𝖱𝖮𝖬 𝖶𝖠𝖲𝖨 🤗🌄"
   }
   if (time >= 10) {
-   res = "Good Afternoon ☀️"
+   res = "𝖦𝖮𝖮𝖣 𝖠𝖥𝖳𝖤𝖱𝖭𝖮𝖮𝖭 𝖥𝖱𝖮𝖬 𝖶𝖠𝖲𝖨 ☀️"
   }
   if (time >= 15) {
-   res = "Good Afternoon 🌇"
+   res = "𝖦𝖮𝖮𝖣 𝖤𝖵𝖭𝖨𝖭𝖦 𝖥𝖱𝖮𝖬 𝖶𝖠𝖲𝖨 🌇"
   }
   if (time >= 18) {
    res = "Good Night 🌙😴"
