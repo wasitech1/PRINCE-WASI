@@ -1,5 +1,5 @@
 { 
-    "name": "prince-bot",
+    "name": "wasi-bot",
     "version": "2.0.0",
     "description": "Advanced WhatsApp Bot",
     "main": "index.js",
@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
+    "homepage": "https://github.com/wasitech1/PRINCE-WASI",
     "author": {
-        "name": "PRINCE"
+        "name": "wasi"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/PRINCE-GDS/THE-PRINCE-BOT.git"
+        "url": "git+https://github.com/wasitech1/PRINCE-WASI"
     },
     "bugs": {
-        "url": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT/issues"
+        "url": "https://github.com/wasitech1/PRINCE-WASIissues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
